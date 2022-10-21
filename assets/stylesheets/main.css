@@ -6,15 +6,6 @@
 html,
 body,
 div,
-/*
-  ========================================
-  Custom styles
-  ========================================
-*/
-body {
-  color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 span,
 applet,
 object,
@@ -136,6 +127,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /*
   ========================================
@@ -196,8 +196,6 @@ table {
   *zoom: 1;
 }
 
-/
-
 
 /*
   ========================================
@@ -216,7 +214,7 @@ a:hover {
 }
 a {
   color: #648880;
-  text decoration:none;
+  text-decoration:none;
 }
 
 p a {
@@ -255,7 +253,7 @@ h1 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
-    text transform: uppercase;
+    text-transform: uppercase;
     }
 
     strong {
@@ -291,18 +289,32 @@ h1 {
 .logo {
   border-top: 4px solid #648880;
   float: left;
+  font-size:48px; 
+  font-weight:100;
+  letter-spacing: .5;
+  line-height: 44px;
   padding: 40px 0 22px 0;
-  font-size:48px;
-  line-height:44px;
+  text-transform: uppercase;
 }
 .tagline {
   margin: 66px 0 22px 0;
+  text-align:right;
 }
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing:.5px;
+  text-transform:uppercase;
 }
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
 
+.nav {
+  text-align: right;
+}
 /*
   ========================================
   Primary footer
@@ -329,6 +341,7 @@ h1 {
 .hero {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align:center;
 }
 
 .hero h2 {
@@ -337,6 +350,7 @@ h1 {
 
 .hero p {
   font-size: 24px;
+  font-weight: 100px;
 }
 
 
